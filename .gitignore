@@ -1,6 +1,11 @@
-# 该目录原本包含其他项目；本仓库只跟踪本次硬盘挂架资料。
-*
-!README.md
-!硬盘电源挂架_竖置.stl
-!数智DM-850G数据包_16.jpg
-!.gitignore
+# Operating-system metadata and editor backups
+.DS_Store
+*.blend[0-9]*
+*.FCStd[0-9]*
+*.FCStd1
+*.FCBak
+__pycache__/
+*.py[cod]
+
+# Re-rendered frames and local exports
+/renders/

@@ -1,6 +1,6 @@
 # 竖置硬盘电源挂架 / Vertical HDD Power Mount
 
-用于 3D 打印的竖置硬盘电源挂架资料包，包含 STL 模型、打印切片展示图，以及按国际存储行业 SFF 规格整理的 2.5 英寸、3.5 英寸硬盘机械尺寸参考。
+用于 3D 打印和装机视频制作的竖置硬盘电源挂架资料包，包含实际打印 STL、FreeCAD 源文件、Blender 模型、装配动画，以及按国际存储行业 SFF 规格整理的 2.5 英寸、3.5 英寸硬盘机械尺寸参考。
 
 ## 文件
 
@@ -12,6 +12,23 @@
 | `docs/3.5-inch-sff-8301.svg` | 按 SFF-8301 绘制的 3.5 英寸标准外形示意图。 |
 | `2.5.png` | 用户下载的 2.5 英寸硬盘尺寸图原图（909 × 1198 px）。 |
 | `3.5.png` | 用户下载的 3.5 英寸硬盘尺寸图原图（1453 × 986 px）。 |
+
+## Blender 模型与装配动画
+
+![装配完成预览](assets/images/hdd_power_animation_poster.png)
+
+- [观看或下载装配动画 MP4](assets/video/hdd_power_assembly_animation.mp4)：**8 秒、1920 × 1080、30 fps、H.264**，无字幕、无配乐。
+- [下载可编辑的 Blender 动画文件](assets/blender/hdd_power_assembly_animation.blend)。
+- [下载静态装配模型](assets/blender/hdd_power_assembly.blend)。
+- [静态装配预览](assets/images/hdd_power_assembly_preview.png)。
+- [FreeCAD 设计源文件](cad/手工2.FCStd)。
+- [装配关系、对象层级与重新渲染方法](docs/blender-assembly.md)。
+
+以带三插电源口的前面板朝外为准，三者从左到右为：**硬盘 → 挂架 → 电源**。电源竖置，150 mm 方向为高度；挂架通过 **2 颗螺丝**固定到电源，硬盘通过 **4 颗螺丝**固定到挂架。
+
+动画先展示硬盘与挂架用四颗螺丝锁紧，再将整组贴合电源、锁紧两颗电源固定螺丝，最后转镜展示成品。
+
+挂架网格直接来自仓库中的实际打印 STL；硬盘和电源为视频展示用的外观简化模型。
 
 ## 国际通用外形标准
 
