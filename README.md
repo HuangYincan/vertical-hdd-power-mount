@@ -15,9 +15,11 @@
 
 ## Blender 模型与装配动画
 
-![装配完成预览](assets/images/hdd_power_animation_poster.png)
+点击下方播放器观看装配动画：
 
-- [观看或下载装配动画 MP4](assets/video/hdd_power_assembly_animation.mp4)：**8 秒、1920 × 1080、30 fps、H.264**，无字幕、无配乐。
+https://github.com/user-attachments/assets/e19ebd96-99ee-44da-aa91-a9bdef0169f9
+
+- [下载装配动画 MP4](assets/video/hdd_power_assembly_animation.mp4)：**8 秒、1920 × 1080、30 fps、H.264**，无字幕、无配乐。
 - [下载可编辑的 Blender 动画文件](assets/blender/hdd_power_assembly_animation.blend)。
 - [下载静态装配模型](assets/blender/hdd_power_assembly.blend)。
 - [静态装配预览](assets/images/hdd_power_assembly_preview.png)。
